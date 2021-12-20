@@ -37,7 +37,7 @@ public class SocketServer {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("closing server");
+            System.out.println("...закрытие сервера...");
             keepUpService.shutdownNow(); //останавливаем сервис
             socket.close(); //закрываем сервер
 

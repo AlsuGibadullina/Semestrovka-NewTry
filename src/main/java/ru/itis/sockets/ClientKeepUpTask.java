@@ -21,7 +21,7 @@ public class ClientKeepUpTask implements Runnable {
     @Override
     public void run() {
         try {
-            System.out.println("now running");
+            System.out.println("Начинаем!");
             while (!isStopped) {
                 String messageFromClient = fromClient.readLine();
                 System.out.println(messageFromClient);
